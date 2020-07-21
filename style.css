@@ -1,0 +1,504 @@
+/* Style the header with a grey background and some padding */
+body{
+  
+  
+  margin: 0;
+  
+}
+html{
+  margin: 0;
+}
+.chef-image{
+  width: 100%;
+  height: auto;
+}
+.container img{
+
+  width: 100%; /* width of container */
+  height: auto; /* height of container */
+  object-fit: cover;
+  object-position: 100% 5px; 
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.box-center{
+  flex-grow: 1;
+  position: absolute;
+}
+.box-left{
+  flex-grow: 1;
+  position: absolute; /* Position the background text */
+  color: #EFEEEB;
+  text-decoration: none;
+  top: 2vw;
+  left: 10vw;
+ 
+  /**/
+  
+}
+.box-left a{
+  color: #EFEEEB;
+  font-size:  4vw;
+  font-family: "Libre Baskerville", serif;
+  line-height: 45px; 
+  text-align: center; 
+  
+  text-decoration: none;
+  transition: all 1s ease-in-out; 
+  
+  
+}
+.box-left:hover { 
+  transform: scale(1.05); 
+}
+
+
+
+.box-right{
+  
+  position: absolute;
+
+  top: 1.5vw;
+  right: 10vw;
+}
+
+.box-right a{
+  color: #EFEEEB;
+  font-size: 4vw;
+  font-family: "Libre Baskerville", serif;
+   
+  text-align: right; 
+  padding-top: 20px;
+  text-decoration: none;
+  transition: all .2s ease-in-out; 
+}
+.box-right:hover{
+  transform: scale(1.05);
+}
+
+.carrot{
+    float: center;
+    width: 1em;
+    height: 1em;
+    
+}
+  /* Style the header links */
+
+  /*recetas y platos*/
+
+
+  .header-plates{
+    margin-top: -3vw;
+    background-color:#E7B91B;
+  }
+  .header-plates h1 {
+    background-color:#E7B91B;
+    font-family: 'roboto', bold;
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size:10vw; 
+    font-weight: 100; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 1vw;
+    margin-top:  6%;
+    margin-bottom: -1%;
+  }
+  .header-plates p{
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 2.5vw; 
+    font-weight: 300; 
+    line-height: 30px; 
+    letter-spacing: 0.15em;
+    text-align: center;
+    padding-left: 4.5em;
+    border-bottom: 2px #111 solid; 
+     
+  }
+
+.container-plates{
+  background-color:#E7B91B;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-bottom: 3vw;
+  
+
+}
+.box-photo{
+  background: #E7B91B;
+  margin-left: 1.2em;
+  width:auto;
+  height: auto;
+}
+.square h2{
+  font-size: 1.5vw;
+  text-align: center;
+}
+.square p{
+  text-align: right;
+  font-size: 1vw;
+  padding-right: 5%;
+}
+.square a{
+  
+  color: #111;
+  margin-left: 50%;
+  padding-bottom: 5vw;
+  text-align: right;
+  
+  font-size: 2vw;
+}
+.square a:hover{
+  background-color: #111;
+  color: antiquewhite;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+
+.square ol ul{
+  margin-left: 7em;
+  font-size: 1.5vw;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.square{
+  margin-top: 2.5%;
+  border: 1vw solid #111;
+  width: 45vw;
+  height: 35vw;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+  
+}
+
+.box-photo img{
+  max-width: 10vw;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  padding-left: 5%;
+  float: left;
+  -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+ 
+ }
+.box-photo img:hover{
+  -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.box-about h2{
+  
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3vw;
+  
+  
+}
+.box-about p{
+  padding-left: 5%;
+  padding-right: 5%;
+  column-count: 2;
+  column-gap: 3em;
+  column-rule: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  text-align: justify;
+  
+}
+.box-about{
+  margin-bottom: 10vw;
+}
+.header-about img{
+  width: 100%;
+  
+  
+  
+}
+.header-about{
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+.header-text{
+  font-family: "Libre Baskerville", serif;
+  font-size: 6.5vw;
+  letter-spacing: 0.1em;
+  color: white;
+  position: absolute;
+  padding-right: 1.5%;
+  padding-left: 2%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.8vw solid white;
+}
+/*big receta*/
+.box-breceta{
+  background: #E7B91B;
+  margin-left: 1.2em;
+  width:auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.square-breceta{
+  border: 1vw solid #111;
+  width: 93vw;
+  height: auto;
+  overflow: hidden;
+  margin-top: 2em;
+  margin-bottom: 2vw;
+}
+.photo-breceta img{
+  margin-top: -30%;
+  width: 85vw;
+
+}
+.photo-breceta{
+  width: 85vw; /* width of container */
+  height: 80vw; /* height of container */
+  overflow: hidden;
+  margin-left: 4vw;
+}
+.square-breceta h1{
+  text-align: center;
+  font-size: 3vw;
+}
+.square-breceta p{
+  text-align: center;
+  font-size: 1vw;
+  margin-top: -1vw;
+}
+.text-breceta{
+  font-size: 1.5vw;
+}
+/* ingrdients*/
+.text-breceta ol {
+  padding-left: 30%;
+
+}
+.text-breceta ul{
+  padding: 1.5%;
+}
+.text-breceta li{
+  padding: 1.5%;
+}
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid black;
+  
+}
+.end-page{
+  background-color: #111;
+  font-size: 2vw;
+  letter-spacing: 3vw;
+  text-align: center;
+  padding-left: 3%;
+
+}
+/*footer*/
+
+.icon-bar {
+  position: fixed;
+  top: 95%;
+  background-color: #EFEEEB;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.navbar-down {
+  width: auto;
+  text-decoration: none;
+  letter-spacing:1vw;
+  font-size: 2vw;
+  background-color: #000;
+  color: white;
+  
+}
+.navbar-down:hover {
+  
+  color: #E7B91B;
+  
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 1vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 1vw;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 2vw;
+  left:  20%;
+  
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.instagram {
+  background: #125688;
+  color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 760px) {
+    .box-left a{
+     
+    }
+    .box-left{
+      left: 4vw;
+      top: 180px;
+     
+    }
+    .box-right a{
+      font-size: 1em;
+      font-weight: bold;
+      
+     
+    }
+    .box-right{
+      
+      right: 5vw;
+      top: 193px;
+    }
+    .container-plates{
+      flex-direction: column;
+    }
+    .header-plates h1{
+      padding-left: 0%;
+    }
+    .header-plates p{
+      padding-left: 1em;
+      font-size: .8em;
+      letter-spacing: 0.05em;
+      line-height: 10px;
+    }
+    .square{
+      width: 90%;
+      height: 58vw;
+      margin-left: 2.5%;
+      
+    }
+    .square h2{
+      font-size: 3.5vw;
+      text-align: center;
+    }
+    .square p{
+      margin-top: -2vw;
+      font-size: 2.5vw;
+    }
+    .square a{
+      font-size: 4vw;
+    }
+    .square ol ul{
+      margin-left: 6em;
+      font-size: 3vw;
+      text-align: justify;
+      padding-left: 1%;
+      padding-right: 5%;
+    }
+    .square-breceta h1{
+      text-align: center;
+      font-size: 5vw;
+    }
+    .square-breceta p{
+      text-align: center;
+      font-size: 3vw;
+      margin-top: -1vw;
+    }
+    .text-breceta{
+      font-size: 2.5vw;
+    }
+    .box-about p{
+      column-count: 1;
+      font-size: 3vw;
+    }
+    .box-about h2{
+      font-size: 4vw;
+    }
+    .box-photo{
+      margin-left: 1%;
+      margin-right: 3%;
+    }
+    .square{
+      width: 90vw;
+    }
+    .navbar-down {
+      
+      letter-spacing: 0.5vw;
+    }
+    .navbar-down:hover {
+      
+      color: yellow;
+      
+    }
+    .icon-bar a{
+      
+      font-size: 2.8vw;
+      padding-left: 1.5vw;
+      padding-right: 1.5vw;
+      padding-bottom: 1.5vw;
+      padding-top: 1vw;
+    }
+    .icon-bar{
+      top:97%;
+      
+    }  
+    .square-breceta{
+      
+    }
+    .box-breceta{
+      margin-left: 2vw;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    
+    }
+  
